@@ -1,0 +1,23 @@
+{
+  "pre": {
+    "server": "pre_server",
+    "database": "pre_db",
+    "datafile": "pre_data.csv",
+    "suffix": ""
+  },
+  "post": {
+    "server": "post_server",
+    "database": "post_db",
+    "datafile": "post_data.csv",
+    "suffix": ""
+  },
+  "sql": {
+    "select_clause": "select",
+    "where_clause": "where 1=1",
+    "chunksize": 20000
+  },
+  "tables_file": "table_file.xlsx",
+  "release": "18.0",
+  "output_dir": "output_directory",
+  "post_only": true
+}
