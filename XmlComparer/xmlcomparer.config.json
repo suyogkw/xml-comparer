@@ -19,5 +19,5 @@
   "tables_file": "table_file.xlsx",
   "release": "18.0",
   "output_dir": "output_directory",
-  "post_only": true
+  "post_only": false
 }
